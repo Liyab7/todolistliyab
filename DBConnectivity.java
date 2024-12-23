@@ -5,10 +5,10 @@ import java.sql.DriverManager;
 
 public class DBConnectivity {
 
-    private final String HOST = "localhost:3306";
+    private final String HOST = "localhost:3306"; //change to your port number
     private final String USERNAME = "root";
-    private final String PASSWORD = "Fred8080";
-    private final String DATABASENAME = "db_to_do_list";
+    private final String PASSWORD = "Fred8080"; // change to your password
+    private final String DATABASENAME = "db_to_do_list"; // database name
     private final String DRIVER = "com.mysql.cj.jdbc.Driver";
     private final String URL = "jdbc:mysql://" + HOST + "/" + DATABASENAME;
     private Connection connection;
