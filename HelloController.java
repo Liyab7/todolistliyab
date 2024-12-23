@@ -1,4 +1,4 @@
-package com.freddie.to_do_list_app;
+package com.freddie.to_do_list_app; // import packages
 
 import com.freddie.to_do_list_app.DBConnectivity.DBConnectivity;
 import com.freddie.to_do_list_app.Task.Task;
@@ -18,7 +18,7 @@ import java.sql.*;
 import java.util.Objects;
 
 
-public class HelloController {
+public class HelloController { // scene builder codes
     @FXML
     private Label welcomeText;
     @FXML
